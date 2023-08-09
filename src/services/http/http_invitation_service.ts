@@ -7,7 +7,7 @@ type ErrorResponse = {
 export class HttpInvitationService implements InvitationService {
   constructor(
     private readonly url: string = 'https://l94wc2001h.execute-api.ap-southeast-2.amazonaws.com/prod/fake-auth',
-    private readonly doFetch: typeof fetch = fetch,
+    private readonly doFetch: typeof fetch = (...p: Parameters<typeof fetch>) => fetch(...p),
   ) {
 
   }
