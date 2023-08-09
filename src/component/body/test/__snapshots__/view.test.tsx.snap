@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Body > renders 1`] = `
+<body>
+  <div>
+    <div
+      class="_container_0e7f3c"
+    >
+      <div
+        class="_content_0e7f3c"
+      >
+        <h1>
+          A better way
+          <br />
+          to enjoy every day.
+        </h1>
+        <p>
+          Be the first to know when we launch.
+        </p>
+        <button>
+          Requst an invite
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;

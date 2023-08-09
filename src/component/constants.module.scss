@@ -1,0 +1,11 @@
+$baseline: 8px;
+
+@mixin dark {
+  color: white;
+  background: linear-gradient(#666, #333);
+}
+
+@mixin light {
+  color: black;
+  background: #FFF;
+}

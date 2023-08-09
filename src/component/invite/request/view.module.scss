@@ -1,0 +1,19 @@
+@use '../../constants.module.scss';
+@use '../dialog.module.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: constants.$baseline;
+  width: dialog.$width;
+  padding: dialog.$padding;
+  text-align: center;
+}
+
+.submit {
+  margin-top: constants.$baseline;
+}
+
+.error {
+  color: red;
+}

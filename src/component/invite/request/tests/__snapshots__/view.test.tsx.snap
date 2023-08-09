@@ -1,0 +1,211 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`InviteReqeust > renders > is empty > snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="_container_075bbc"
+    >
+      <h2>
+        Request an invite
+      </h2>
+      <input
+        placeholder="Full Name"
+        value=""
+      />
+      <input
+        placeholder="Email"
+        value=""
+      />
+      <input
+        placeholder="Confirm Email"
+        value=""
+      />
+      <button
+        class="_submit_075bbc"
+      >
+        Send
+      </button>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`InviteReqeust > renders > populates confirmation email > snapshot 1`] = `
+<body>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div />
+  <div>
+    <div
+      class="_container_075bbc"
+    >
+      <h2>
+        Request an invite
+      </h2>
+      <input
+        placeholder="Full Name"
+        value=""
+      />
+      <input
+        placeholder="Email"
+        value=""
+      />
+      <input
+        placeholder="Confirm Email"
+        value="email@place.tld"
+      />
+      <button
+        class="_submit_075bbc"
+      >
+        Send
+      </button>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`InviteReqeust > renders > populates email > snapshot 1`] = `
+<body>
+  <div />
+  <div />
+  <div />
+  <div />
+  <div>
+    <div
+      class="_container_075bbc"
+    >
+      <h2>
+        Request an invite
+      </h2>
+      <input
+        placeholder="Full Name"
+        value=""
+      />
+      <input
+        placeholder="Email"
+        value="email@place.tld"
+      />
+      <input
+        placeholder="Confirm Email"
+        value=""
+      />
+      <button
+        class="_submit_075bbc"
+      >
+        Send
+      </button>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`InviteReqeust > renders > populates name > snapshot 1`] = `
+<body>
+  <div />
+  <div />
+  <div />
+  <div>
+    <div
+      class="_container_075bbc"
+    >
+      <h2>
+        Request an invite
+      </h2>
+      <input
+        placeholder="Full Name"
+        value="Bob"
+      />
+      <input
+        placeholder="Email"
+        value=""
+      />
+      <input
+        placeholder="Confirm Email"
+        value=""
+      />
+      <button
+        class="_submit_075bbc"
+      >
+        Send
+      </button>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`InviteReqeust > renders > shows an errorMessage > snapshot 1`] = `
+<body>
+  <div />
+  <div>
+    <div
+      class="_container_075bbc"
+    >
+      <h2>
+        Request an invite
+      </h2>
+      <input
+        placeholder="Full Name"
+        value=""
+      />
+      <input
+        placeholder="Email"
+        value=""
+      />
+      <input
+        placeholder="Confirm Email"
+        value=""
+      />
+      <button
+        class="_submit_075bbc"
+      >
+        Send
+      </button>
+      <div
+        class="_error_075bbc"
+      >
+        bad thing
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`InviteReqeust > renders > shows processing state > snapshot 1`] = `
+<body>
+  <div />
+  <div />
+  <div>
+    <div
+      class="_container_075bbc"
+    >
+      <h2>
+        Request an invite
+      </h2>
+      <input
+        disabled=""
+        placeholder="Full Name"
+        value=""
+      />
+      <input
+        disabled=""
+        placeholder="Email"
+        value=""
+      />
+      <input
+        disabled=""
+        placeholder="Confirm Email"
+        value=""
+      />
+      <button
+        class="_submit_075bbc"
+        disabled=""
+      >
+        Sending, please wait...
+      </button>
+    </div>
+  </div>
+</body>
+`;

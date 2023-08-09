@@ -1,0 +1,47 @@
+@use '../constants.module.scss';
+
+.container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.header {
+  flex: 0;
+}
+
+.footer {
+  flex: 0;
+}
+
+.body {
+  flex: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.dialog {
+  @include constants.light;
+  position: relative;
+  border-radius: constants.$baseline;
+  padding: constants.$baseline;
+}
+
+.closeButton {
+  border-radius: calc(2 * constants.$baseline);
+  position: absolute;
+  top: calc(-1 * constants.$baseline);
+  right: calc(-1 * constants.$baseline);
+}

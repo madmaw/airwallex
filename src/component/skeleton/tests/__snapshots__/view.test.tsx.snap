@@ -1,0 +1,83 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DesktopSkeleton > no dialog > renders 1`] = `
+<body>
+  <div>
+    <div
+      class="_container_141b3a"
+    >
+      <div
+        class="_header_141b3a"
+      >
+        <div>
+          header
+        </div>
+      </div>
+      <div
+        class="_body_141b3a"
+      >
+        <div>
+          body
+        </div>
+      </div>
+      <div
+        class="_footer_141b3a"
+      >
+        <div>
+          footer
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`DesktopSkeleton > with dialog > renders 1`] = `
+<body>
+  <div />
+  <div>
+    <div
+      class="_container_141b3a"
+    >
+      <div
+        class="_header_141b3a"
+      >
+        <div>
+          header
+        </div>
+      </div>
+      <div
+        class="_body_141b3a"
+      >
+        <div>
+          body
+        </div>
+      </div>
+      <div
+        class="_footer_141b3a"
+      >
+        <div>
+          footer
+        </div>
+      </div>
+      <div
+        class="_overlay_141b3a"
+      >
+        <div
+          class="_dialog_141b3a"
+        >
+          <div>
+            dialog
+          </div>
+          <button
+            aria-label="Close"
+            class="_closeButton_141b3a"
+          >
+            x
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

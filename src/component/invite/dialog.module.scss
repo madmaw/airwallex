@@ -1,0 +1,4 @@
+@use '../constants.module.scss';
+
+$width: calc(40 * constants.$baseline);
+$padding: 0 calc(6 * constants.$baseline) calc(4 * constants.$baseline);

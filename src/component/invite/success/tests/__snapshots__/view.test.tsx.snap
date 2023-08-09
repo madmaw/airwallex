@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`InviteSuccess > renders 1`] = `
+<body>
+  <div>
+    <div
+      class="_container_9a4f76"
+    >
+      <h2>
+        All done!
+      </h2>
+      <p>
+        You will be one of the first to experience Broccoli & Co. when we launch
+      </p>
+      <button>
+        OK
+      </button>
+    </div>
+  </div>
+</body>
+`;

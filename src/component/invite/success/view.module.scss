@@ -1,0 +1,12 @@
+@use '../../constants.module.scss';
+@use '../dialog.module.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: constants.$baseline;
+  align-items: stretch;
+  text-align: center;
+  width: dialog.$width;
+  padding: dialog.$padding;
+}

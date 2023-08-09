@@ -1,0 +1,9 @@
+@use '../constants.module.scss';
+
+.container {
+  @include constants.dark;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: constants.$baseline;
+}
