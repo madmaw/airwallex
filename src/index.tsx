@@ -4,10 +4,6 @@ import { HttpInvitationService } from "./services/http/http_invitation_service";
 import { App } from './app';
 
 const invitationService = new HttpInvitationService();
-invitationService.createInvitation({
-  email: 'a@b.c',
-  name: 'a',
-}).then(console.log);
 
 window.onload = () => {
   const app = document.getElementById('app');
